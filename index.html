@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<script defer src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
+<video id="video" autoplay playsinline muted style="display:none;"></video>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Background Music -->
+    <audio id="bgMusic" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="container">
+        <h1>Sheren Nialivia,<br>Will you be my Valentine? 💖</h1>
+
+        <div class="buttons">
+            <button class="yes-button" onclick="handleYesClick()">Yes 💕</button>
+            <button class="no-button" onclick="handleNoClick()">No 😭</button>
+        </div>
+
+        <div class="gif_container">
+            <img src="https://media1.giphy.com/media/VM1fcpu2bKs1e2Kdbj/giphy.gif">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
+</body>
+</html>
